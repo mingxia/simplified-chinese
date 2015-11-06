@@ -8,4 +8,4 @@
 
 安装办法：
 
->composer require mingxia/simplified-chinese
+>[composer](https://packagist.org/packages/mingxia/simplified-chinese) require mingxia/simplified-chinese

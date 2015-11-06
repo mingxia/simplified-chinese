@@ -394,7 +394,7 @@ core:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
-      subject: 激活你的信账号
+      subject: 激活你的新账号
       body: |
         Hey {username}!
 
