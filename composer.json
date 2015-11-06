@@ -4,7 +4,7 @@
     "description": "simplified chinese language pack for Flarum.",
     "homepage": "https://github.com/mingxia/simplified-chinese",
     "keywords": ["locale"],
-    "version": "v0.1.0-beta.4",
+    "version": "v1.0.0",
     "license": "MIT",
     "authors": [
         {
