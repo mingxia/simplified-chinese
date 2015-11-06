@@ -1,0 +1,447 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Appearance page.
+    appearance:
+      colored_header_label: Colored Header
+      colors_heading: Colors
+      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      custom_styles_heading: Custom Styles
+      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      dark_mode_label: Dark Mode
+      edit_css_button: 编辑自定义 CSS
+      enter_hex_message: Please enter a hexadecimal color code.
+      submit_button: => core.ref.save_changes
+
+    # These strings are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: 默认语言
+      forum_description_heading: 论坛描述
+      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
+      forum_title_heading: 论坛名称
+      home_page_heading: 首页
+      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      saved_message: 你的修改已经保存
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: 欢迎条幅
+      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+
+    # These strings are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
+      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
+      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
+      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
+      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
+      version_text: "Thanks for trying out Flarum! You are running version {version}."
+
+    # These strings are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: Color
+      delete_button: 删除群组
+      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      icon_label: Icon
+      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
+      name_label: Name
+      plural_placeholder: Plural (e.g. Mods)
+      singular_placeholder: Singular (e.g. Mod)
+      submit_button: => core.ref.save_changes
+      title: 创建群组
+
+    # These strings are used in the Extensions page.
+    extensions:
+      add_button: 添加扩展
+      disable_button: 不可用
+      enable_button: 可用
+      settings_button: => core.ref.settings
+      uninstall_button: 卸载
+
+    # This string is used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # This string is used in the modal dialog displayed when loading extensions.
+    loading:
+      title: 请等待...
+
+    # These strings are used in the navigation bar.
+    nav:
+      appearance_button: 外观
+      appearance_text: "Customize your forum's colors, logos, and other variables."
+      basics_button: 常规
+      basics_text: "Set your forum title, language, and other basic settings."
+      dashboard_button: 控制台
+      dashboard_text: Your forum at a glance.
+      extensions_button: 扩展
+      extensions_text: Add extra functionality to your forum and make it your own.
+      permissions_button: 权限
+      permissions_text: Configure who can see and do what.
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: Allow renaming
+      allow_post_editing_label: Allow post editing
+      create_heading: 创建
+      delete_discussions_forever_label: Delete discussions forever
+      delete_discussions_label: Delete discussions
+      delete_posts_forever_label: Delete posts forever
+      edit_and_delete_posts_label: Edit and delete posts
+      global_heading: Global
+      moderate_heading: Moderate
+      new_group_button: 新群组
+      participate_heading: Participate
+      read_heading: Read
+      rename_discussions_label: Rename discussions
+      reply_to_discussions_label: Reply to discussions
+      sign_up_label: 注册
+      start_discussions_label: 开启新话题
+      view_discussions_label: 浏览话题
+
+    # These strings are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: Indefinitely
+      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_ten_minutes_button: For 10 minutes
+      allow_until_reply_button: Until next reply
+      everyone_button: Everyone
+      members_button: => core.group.members
+      signup_closed_button: Closed
+      signup_open_button: Open
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      dismiss_button: => core.ref.okay
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These strings are used in the Change Password modal dialog.
+    change_password:
+      send_button: 发送重置密码邮件
+      text: 点击下面的按钮并检查您的电子邮件的链接来更改您的密码
+      title: => core.ref.change_password
+
+    # These strings are used by the composer controls.
+    composer:
+      close_tooltip: 关闭
+      exit_full_screen_tooltip: 退出全屏
+      full_screen_tooltip: 全屏
+      minimize_tooltip: 最小化
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: 正文写在这里...
+      discard_confirmation: "该话题未被发出，是否放弃？"
+      submit_button: 发布
+      title_placeholder: 话题标题
+
+    # These strings are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "该修改未被保存，是否放弃修改？"
+      post_link: "回复 #{number} 在 {discussion}"
+      submit_button: => core.ref.save_changes
+
+    # These strings are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "该回复未被发出，是否放弃？"
+      posted_message: 你的回复被回复
+      submit_button: 回复
+      view_button: 查看
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: 无法回复
+      cannot_reply_text: 你无权回复该话题
+      delete_button: => core.ref.delete
+      delete_confirmation: "你确定删除该话题吗？"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: 登陆后回复
+      rename_button: 重命名
+      rename_text: "请给这个话题输入一个新的标题:"
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These strings are used in the discussion list.
+    discussion_list:
+      empty_text: "Looks like there are no discussions here. Why don't you create a new one?"
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: 标记为已读
+      replied_text: "{username} 回复于 {ago}"
+      started_text: "{username} 发布于 {ago}"
+
+    # These strings are used in the Edit User modal dialog (admin function).
+    edit_user:
+      email_label: => core.ref.email
+      password_label: => core.ref.password
+      submit_button: => core.ref.save_changes
+      username_label: => core.ref.username
+
+    # These strings are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: 我们寄一封电子邮件包含的链接重置您的密码。如果您不在一两下一分钟内收到它，请检查您的垃圾邮件文件夹
+      submit_button: 恢复密码
+      text: 输入您的电子邮件地址，我们会送你一个链接来重置您的密码
+      title: 忘记了密码？
+
+    # These strings are used in the header and session dropdown menu.
+    header:
+      admin_button: 管理后台
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: 个人资料
+      search_placeholder: 搜索其实很简单
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: 不能发布话题
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: 刷新
+      start_discussion_button: 开启新话题
+
+    # These strings are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: 最新回复
+      newest_button: 最新话题
+      oldest_button: 最老话题
+      relevance_button: 匹配话题
+      top_button: 热门话题
+
+    # These strings are used in the Log In modal dialog.
+    log_in:
+      confirmation_required_message: "You need to confirm your email before you can log in. We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+      forgot_password_link: "忘记了密码？"
+      invalid_login_message: 您的登录信息不正确
+      password_placeholder: => core.ref.password
+      sign_up_text: "还没有注册帐户？ <a>注册</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: 用户名或邮箱
+
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username} 更改了标题"
+      empty_text: 没有通知
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These strings are used by tooltips displayed for individual posts.
+    post:
+      edited_tooltip: "{username} 编辑于 {ago}"
+      number_tooltip: "回复 #{number}"
+
+    # These strings are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These strings are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: 最后更新
+      original_post_link: 最先发布
+      unread_text: "{count} 条未读"
+      viewing_text: "{index} of {count} post|{index} of {count} posts"
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_text: "{username} changed the title from {old} to {new}."
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} later"
+
+    # These strings are used by the search results dropdown list.
+    search:
+      all_discussions_button: '在所有话题中搜索 "{query}"'
+      discussions_heading: => core.ref.discussions
+      users_heading: 用户
+
+    # These strings are used in the Settings page.
+    settings:
+      account_heading: 账号
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: 有人重命名了我的一个话题
+      privacy_disclose_online_label: 允许其他人查看在线的状态
+      privacy_heading: 隐私
+      title: => core.ref.settings
+
+    # These strings are used in the Sign Up modal dialog.
+    sign_up:
+      confirmation_message: => core.ref.confirmation_email_sent
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "已经有一个帐户吗？ <a>登陆</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "欢迎你, {username}!"
+
+    # These strings are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: 移除
+      avatar_upload_button: 上传
+      bio_placeholder: 写一些关于你自己的简介
+      discussions_link: => core.ref.discussions
+      joined_date_text: "加入于 {ago}"
+      online_text: 在线
+      posts_load_more_button: => core.ref.load_more
+      posts_link: 回复
+      settings_link: => core.ref.settings
+
+    # These strings are found on the user profile page (admin function).
+    user_controls:
+      button: 操作
+      delete_button: => core.ref.delete
+      delete_confirmation: "你确定要删除该用户？用户的所有贴文都会被删除"
+      edit_button: => core.ref.edit
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These strings are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: 隐藏
+
+    # This string is displayed in place of the username of deleted user account.
+    deleted_user_text: "[已删除]"
+
+    # These strings are displayed as error messages.
+    error:
+      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      permission_denied_message: 你没有权限操作
+      not_found_message: 所需资源未发现
+      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+
+    # These strings are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These strings are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, and {third}"
+
+  # Strings in this namespace are used in basic HTML interface.
+  basic:
+    loading_text: 加载中...
+    load_error_message: Something went wrong while trying to load the full version of this site.
+    javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+    next_page_button: 下一页
+    previous_page_button: 上一页
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: 所有话题
+    change_email: 修改邮箱
+    change_password: 修改密码
+    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    delete: 删除
+    delete_forever: 永久删除
+    discussions: 话题
+    edit: 编辑
+    email: Email
+    load_more: 载入更多
+    log_in: 登陆
+    log_out: 退出
+    mark_all_as_read: 标记所有为已读
+    notifications: 消息通知
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: 密码
+    reply: 回复                                # Referenced by flarum-mentions.yml
+    restore: Restore
+    save_changes: 保存修改                   # Referenced by flarum-tags.yml
+    settings: 设置
+    sign_up: 注册
+    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: 用户名
+    write_a_reply: 说点什么...
+    you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # EMAIL CONTENT
+  ##
+
+  # Strings in this namespace are used in emails sent by the forum.
+  email:
+
+    # These strings are used in emails sent when users register new accounts.
+    activate_account:
+      subject: 激活你的信账号
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has signed up to {forum} with this email address.
+
+        If this was you, simply click the following link and your account will be activated:
+        {url}
+
+        If you did not sign up, please ignore this email.
+
+    # These strings are used in emails sent when users change their email address.
+    confirm_email:
+      subject: 确认你的新邮箱地址
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has changed their email address on {forum} to this one.
+
+        If this was you, simply click the following link and your email will be confirmed:
+        {url}
+
+        If this was not you, please ignore this email.
+
+    # These strings are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: 重设密码
+      body: |
+        Hey {username}!
+
+        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+
+        If this was you, click the following link to reset your password:
+        {url}
+
+        If you do not wish to change your password, just ignore this email and nothing will happen.
+
+  ##
+  # GROUP NAMES
+  ##
+
+  # Strings in this namespace are used to translate default group names.
+  group:
+    admin: 管理员
+    admins: 管理组
+    guest: 游客
+    guests: 游客组
+    member: 注册用户
+    members: 注册用户组
+    mod: 版主
+    mods: 版主组
