@@ -8,4 +8,15 @@
 
 安装办法：
 
+### composer 命令行安装
+
 >[composer](https://packagist.org/packages/mingxia/simplified-chinese) require mingxia/simplified-chinese
+
+### 常规FTP安装
+
+
+>下载[语言包](https://github.com/mingxia/simplified-chinese/archive/master.zip)
+
+>用FTP上传到服务器的Flarum/extension文件夹
+
+>登陆论坛后台启用
