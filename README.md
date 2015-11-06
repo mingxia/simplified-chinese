@@ -8,4 +8,4 @@
 
 安装办法：
 
->composer require mingxia/flarum-simplified-chinese
+>composer require mingxia/simplified-chinese
