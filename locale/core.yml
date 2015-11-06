@@ -47,7 +47,7 @@ core:
     edit_group:
       color_label: Color
       delete_button: 删除群组
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      delete_confirmation: "你确定要删除该群组？群组成员将不会被删除。"
       icon_label: Icon
       icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
       name_label: Name
@@ -75,15 +75,15 @@ core:
     # These strings are used in the navigation bar.
     nav:
       appearance_button: 外观
-      appearance_text: "Customize your forum's colors, logos, and other variables."
+      appearance_text: "定义论坛的颜色、logo以及其他参数。"
       basics_button: 常规
-      basics_text: "Set your forum title, language, and other basic settings."
+      basics_text: "设置论坛名称、语言以及其他常规设置。"
       dashboard_button: 控制台
       dashboard_text: Your forum at a glance.
       extensions_button: 扩展
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: 权限
-      permissions_text: Configure who can see and do what.
+      permissions_text: 配置用户权限，谁能看什么，能做什么。
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
@@ -94,7 +94,7 @@ core:
       delete_discussions_label: Delete discussions
       delete_posts_forever_label: Delete posts forever
       edit_and_delete_posts_label: Edit and delete posts
-      global_heading: Global
+      global_heading: 全局
       moderate_heading: Moderate
       new_group_button: 新群组
       participate_heading: Participate
@@ -111,10 +111,10 @@ core:
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
       allow_ten_minutes_button: For 10 minutes
       allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      everyone_button: 所有人
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: 已关闭
+      signup_open_button: 打开
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -342,8 +342,8 @@ core:
     # These strings are used to punctuate a series of items.
     series:
       glue_text: ", "
-      two_text: "{first} and {second}"
-      three_text: "{first}, {second}, and {third}"
+      two_text: "{first} 和 {second}"
+      three_text: "{first}, {second}, 和 {third}"
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
