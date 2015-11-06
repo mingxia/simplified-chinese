@@ -1,4 +1,4 @@
-// Based on: https://github.com/caouecs/Laravel-lang/blob/master/zh-CN/validation.php
+# Based on: https://github.com/caouecs/Laravel-lang/blob/master/zh-CN/validation.php
 
 validation:
   accepted: ":attribute 必须接受。"
