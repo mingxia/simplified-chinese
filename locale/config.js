@@ -1,4 +1,4 @@
-// Customsimplified chinese Moment.js Locales
+// Custom simplified chinese Moment.js Locales
 // Based on: https://github.com/moment/moment/blob/develop/locale/zh-cn.js
 
 moment.locale('zh-cn', {
