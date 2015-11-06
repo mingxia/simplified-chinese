@@ -1,7 +1,7 @@
 {
     "name": "mingxia/simplified-chinese",
     "type": "flarum-extension",
-    "description": "Flarum中文简体语言包",
+    "description": "simplified chinese language pack for Flarum.",
     "homepage": "https://github.com/mingxia/flarum-simplified-chinese",
     "keywords": ["locale"],
     "version": "v0.1.0-beta.4",
@@ -18,7 +18,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "中文简体",
+            "title": "Simplified Chinese",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
