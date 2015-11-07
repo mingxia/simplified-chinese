@@ -394,48 +394,48 @@ core:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
-      subject: 激活新账号
+      subject: 请激活新账号
       body: |
-        {username}，你好！
+        {username}，您好！
 
-        某人 （希望就是你本人！）使用该邮箱地址在 {forum} 注册了新账号。
+        某人（希望就是你本人！）使用该邮箱地址在 {forum} 注册了新账号。
 
-        如果正是本人，只需轻点后面的链接就可以激活你的账号，正式加入 {forum} :
+        如果正是本人，只需轻轻点击后面的链接就可以激活你的账号，正式加入 {forum} :
         {url}
 
         如果你没有注册，请忽视这封邮件。
         
-        {forum} | {description} 
+        本邮件由 {forum} 系统发送，请勿直接回复。
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
-      subject: 确认新邮箱地址
+      subject: 请确认新邮箱地址
       body: |
-        {username}，你好！
+        {username}，您好！
 
-        某人 （希望就是你本人！）将其在 {forum} 上的邮箱地址修改为了该邮箱地址。
+        某人（希望就是你本人！）将其在 {forum} 上的邮箱地址修改为了该邮箱地址。
 
-        如果正是本人，只需轻点后面的链接就可以确认你的新邮箱:
+        如果正是本人，只需轻轻点击后面的链接就可以确认你的新邮箱:
         {url}
 
         如果你从未有此操作，请忽视这封邮件。
         
-        {forum} | {description} 
+        本邮件由 {forum} 系统发送，请勿直接回复。
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: 重设密码
+      subject: 重设密码链接
       body: |
-        {username}，你好！
+        {username}，您好！
 
-        某人 （希望就是你本人！）提交了一个忘记了你在 {forum} 上的账号密码的请求。
+        某人（希望就是你本人！）提交了一个找回你在 {forum} 上的账号密码的请求。
 
         如果正是本人，请点击后面的链接以重设你的密码:
         {url}
 
         如果你不希望修改你的密码，只需忽视这封邮件，一切都不会再发生。
         
-        {forum} | {description} 
+        本邮件由 {forum} 系统发送，请勿直接回复。
 
   ##
   # GROUP NAMES
