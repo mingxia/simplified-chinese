@@ -81,26 +81,26 @@ core:
       dashboard_button: 控制台
       dashboard_text: Your forum at a glance.
       extensions_button: 扩展
-      extensions_text: Add extra functionality to your forum and make it your own.
+      extensions_text: 添加更多扩展功能，让她更满足你的需求。
       permissions_button: 权限
       permissions_text: 配置用户权限，谁能看什么，能做什么。
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
+      allow_renaming_label: 允许重命名
+      allow_post_editing_label: 允许编辑贴文
       create_heading: 创建
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
+      delete_discussions_forever_label: 永久删除话题
+      delete_discussions_label: 删除话题
+      delete_posts_forever_label: 永久删除贴文
+      edit_and_delete_posts_label: 编辑和删除贴文
       global_heading: 全局
-      moderate_heading: Moderate
+      moderate_heading: 版主
       new_group_button: 新群组
       participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
+      read_heading: 阅读
+      rename_discussions_label: 重命名话题
+      reply_to_discussions_label: 回复话题
       sign_up_label: 注册
       start_discussions_label: 开启新话题
       view_discussions_label: 浏览话题
@@ -110,7 +110,7 @@ core:
       allow_indefinitely_button: Indefinitely
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
       allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
+      allow_until_reply_button: 下次回复之前
       everyone_button: 所有人
       members_button: => core.group.members
       signup_closed_button: 已关闭
@@ -129,7 +129,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: 发送重置密码邮件
-      text: 点击下面的按钮并检查您的电子邮件的链接来更改您的密码
+      text: 点击下面的按钮并检查您的电子邮件的链接来更改密码
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -144,7 +144,7 @@ core:
       body_placeholder: 正文写在这里...
       discard_confirmation: "该话题未被发出，是否放弃？"
       submit_button: 发布
-      title_placeholder: 话题标题
+      title_placeholder: 内容标题
 
     # These strings are used by the composer when editing a post.
     composer_edit:
@@ -156,7 +156,7 @@ core:
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "该回复未被发出，是否放弃？"
-      posted_message: 你的回复被回复
+      posted_message: 你的贴文被回复
       submit_button: 回复
       view_button: 查看
 
@@ -175,7 +175,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "Looks like there are no discussions here. Why don't you create a new one?"
+      empty_text: "似乎没有话题，为什么不发布一个新的呢？"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
@@ -192,9 +192,9 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: 我们寄一封电子邮件包含的链接重置您的密码。如果您不在一两下一分钟内收到它，请检查您的垃圾邮件文件夹
+      email_sent_message: 我们已发送一封包含重置密码链接的电子邮件。如果您在一到两分钟内无法收到，请检查您的垃圾邮件文件夹
       submit_button: 恢复密码
-      text: 输入您的电子邮件地址，我们会送你一个链接来重置您的密码
+      text: 输入您的电子邮件地址，我们会送你一个链接来重置密码
       title: 忘记了密码？
 
     # These strings are used in the header and session dropdown menu.
@@ -203,7 +203,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: 个人资料
-      search_placeholder: 搜索其实很简单
+      search_placeholder: 搜索就是这么简单
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -225,7 +225,7 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "You need to confirm your email before you can log in. We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+      confirmation_required_message: "在登陆之前您需要去确认你的邮箱。我们已经发送了一封确认邮件到 {email}. 如果还没有收到，请检您的垃圾邮件文件夹。"
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 您的登录信息不正确
       password_placeholder: => core.ref.password
@@ -263,9 +263,9 @@ core:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} changed the title from {old} to {new}."
+      discussion_renamed_text: "{username} 已将标题从{old} 修改为 {new}."
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} 后"
 
     # These strings are used by the search results dropdown list.
     search:
@@ -282,7 +282,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 有人重命名了我的一个话题
-      privacy_disclose_online_label: 允许其他人查看在线的状态
+      privacy_disclose_online_label: 允许其他人查看我的在线状态
       privacy_heading: 隐私
       title: => core.ref.settings
 
@@ -302,7 +302,7 @@ core:
     user:
       avatar_remove_button: 移除
       avatar_upload_button: 上传
-      bio_placeholder: 写一些关于你自己的简介
+      bio_placeholder: 简单介绍一下自己吧
       discussions_link: => core.ref.discussions
       joined_date_text: "加入于 {ago}"
       online_text: 在线
@@ -329,15 +329,15 @@ core:
 
     # These strings are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      generic_message: "不要担心！只是出了点小问题。请重新加载页面并且重试一次。"
       permission_denied_message: 你没有权限操作
-      not_found_message: 所需资源未发现
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      not_found_message: 未发现所需资源
+      rate_limit_exceeded_message: 你的操作太过频繁，请在几秒钟后重试。
 
     # These strings are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: K
-      mega_text: M
+      kilo_text: 千克
+      mega_text: 百万
 
     # These strings are used to punctuate a series of items.
     series:
@@ -348,8 +348,8 @@ core:
   # Strings in this namespace are used in basic HTML interface.
   basic:
     loading_text: 加载中...
-    load_error_message: Something went wrong while trying to load the full version of this site.
-    javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+    load_error_message: 在尝试加载完整版网站的时候出了点问题。
+    javascript_disabled_message: 本站在开启JavaScript支持的浏览器下运行最佳。
     next_page_button: 下一页
     previous_page_button: 上一页
 
@@ -362,25 +362,25 @@ core:
     all_discussions: 所有话题
     change_email: 修改邮箱
     change_password: 修改密码
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "我们已经发送了一封确认邮件到 {email}。如果未能及时到达，请检查你的垃圾邮件文件夹。"
     delete: 删除
     delete_forever: 永久删除
     discussions: 话题
     edit: 编辑
-    email: Email
+    email: 邮箱
     load_more: 载入更多
     log_in: 登陆
     log_out: 退出
-    mark_all_as_read: 标记所有为已读
+    mark_all_as_read: 全部标记为已读
     notifications: 消息通知
     okay: OK                                     # Referenced by flarum-tags.yml
     password: 密码
     reply: 回复                                # Referenced by flarum-mentions.yml
-    restore: Restore
+    restore: 恢复
     save_changes: 保存修改                   # Referenced by flarum-tags.yml
     settings: 设置
     sign_up: 注册
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count} 其他|{count} 其他"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: 用户名
     write_a_reply: 说点什么...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
@@ -394,42 +394,48 @@ core:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
-      subject: 激活你的新账号
+      subject: 激活新账号
       body: |
-        Hey {username}!
+        {username}，你好！
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        某人 （希望就是你本人！）使用该邮箱地址在 {forum} 注册了新账号。
 
-        If this was you, simply click the following link and your account will be activated:
+        如果正是本人，只需轻点后面的链接就可以激活你的账号，正式加入 {forum} :
         {url}
 
-        If you did not sign up, please ignore this email.
+        如果你没有注册，请忽视这封邮件。
+        
+        {forum} | {description} 
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
-      subject: 确认你的新邮箱地址
+      subject: 确认新邮箱地址
       body: |
-        Hey {username}!
+        {username}，你好！
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        某人 （希望就是你本人！）将其在 {forum} 上的邮箱地址修改为了该邮箱地址。
 
-        If this was you, simply click the following link and your email will be confirmed:
+        如果正是本人，只需轻点后面的链接就可以确认你的新邮箱:
         {url}
 
-        If this was not you, please ignore this email.
+        如果你从未有此操作，请忽视这封邮件。
+        
+        {forum} | {description} 
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: 重设密码
       body: |
-        Hey {username}!
+        {username}，你好！
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        某人 （希望就是你本人！）提交了一个忘记了你在 {forum} 上的账号密码的请求。
 
-        If this was you, click the following link to reset your password:
+        如果正是本人，请点击后面的链接以重设你的密码:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        如果你不希望修改你的密码，只需忽视这封邮件，一切都不会再发生。
+        
+        {forum} | {description} 
 
   ##
   # GROUP NAMES
