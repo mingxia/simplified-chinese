@@ -79,8 +79,8 @@ flarum-tags:
     # These strings are displayed between posts in the post stream.
     post_stream:
       added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} 将本话题归入 {tagsAdded} 节点并从 {tagsRemoved} 节点移除。"
-      removed_tags_text: "{username} 移除了 {tagsRemoved} 节点。"
+      added_and_removed_tags_text: "{username} 将本话题归入 {tagsAdded} 并从 {tagsRemoved} 移除。"
+      removed_tags_text: "{username} 移除了 {tagsRemoved} 。"
       tags_text: "{tags} 节点|{tags} 节点"
 
   # Strings in this namespace are used by the forum and admin interfaces.
