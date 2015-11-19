@@ -167,7 +167,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "你确定删除该话题吗？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: 登陆后回复
+      log_in_to_reply_button: 登录后回复
       rename_button: 重命名
       rename_text: "请给这个话题输入一个新的标题:"
       reply_button: => core.ref.reply
@@ -225,7 +225,7 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "在登陆之前您需要去确认你的邮箱。我们已经发送了一封确认邮件到 {email}. 如果还没有收到，请检您的垃圾邮件文件夹。"
+      confirmation_required_message: "在登录之前您需要去确认你的邮箱。我们已经发送了一封确认邮件到 {email}. 如果还没有收到，请检您的垃圾邮件文件夹。"
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 您的登录信息不正确
       password_placeholder: => core.ref.password
@@ -291,7 +291,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "已经有一个帐户吗？ <a>登陆</a>"
+      log_in_text: "已经有一个帐户吗？ <a>登录</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -369,7 +369,7 @@ core:
     edit: 编辑
     email: 邮箱
     load_more: 载入更多
-    log_in: 登陆
+    log_in: 登录
     log_out: 退出
     mark_all_as_read: 全部标记为已读
     notifications: 消息通知
