@@ -10,13 +10,13 @@ core:
     # These strings are used in the Appearance page.
     appearance:
       colored_header_label: Colored Header
-      colors_heading: Colors
+      colors_heading: 颜色
       colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_styles_heading: Custom Styles
+      custom_styles_heading: 自定义样式
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
+      dark_mode_label: 深色模式
       edit_css_button: 编辑自定义 CSS
-      enter_hex_message: Please enter a hexadecimal color code.
+      enter_hex_message: 请输入一个十六进制颜色代码。
       submit_button: => core.ref.save_changes
 
     # These strings are used in the Basics page.
@@ -24,7 +24,7 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 默认语言
       forum_description_heading: 论坛描述
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
+      forum_description_text: 用一两句简洁的话来描述你的社区。This will appear in the meta tag and show up in search engines.
       forum_title_heading: 论坛名称
       home_page_heading: 首页
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
@@ -175,7 +175,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "似乎没有话题，为什么不发布一个新的呢？"
+      empty_text: "似乎还没有话题，为什么不发布一个新的呢？"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
@@ -225,7 +225,7 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "在登录之前您需要去确认你的邮箱。我们已经发送了一封确认邮件到 {email}. 如果还没有收到，请检您的垃圾邮件文件夹。"
+      confirmation_required_message: "在登录之前您需要去确认你的邮箱。我们已经发送了一封确认邮件到 {email}. 如果还没有收到，请检查您的垃圾邮件文件夹。"
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 您的登录信息不正确
       password_placeholder: => core.ref.password
