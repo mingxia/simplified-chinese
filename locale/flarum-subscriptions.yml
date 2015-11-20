@@ -36,7 +36,7 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: 当有人回复此话题时提醒我
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
+      ignoring_text: 不接受任何提醒并隐藏话题
       not_following_button: 常规
       not_following_text: "仅在有人@提到我时提醒我"
       notify_email_tooltip: 当有新回复时邮件通知我
