@@ -9,11 +9,11 @@ core:
 
     # These strings are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
+      colored_header_label: 顶部着色
       colors_heading: 颜色
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colors_text: "请选择两种颜色，前者在需要高亮时使用，后者用于某些元素的背景色。"
       custom_styles_heading: 自定义样式
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      custom_styles_text: 使用 LESS/CSS 代码美化 Flarum 顶部默认样式。
       dark_mode_label: 深色模式
       edit_css_button: 编辑自定义 CSS
       enter_hex_message: 请输入一个十六进制颜色代码。
@@ -24,7 +24,7 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 默认语言
       forum_description_heading: 论坛描述
-      forum_description_text: 用一两句简洁的话来描述你的社区。This will appear in the meta tag and show up in search engines.
+      forum_description_text: 用一两句简洁的话来描述你的社区。它将用于在搜索引擎中显示（Meta 标签）。
       forum_title_heading: 论坛名称
       home_page_heading: 首页
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
@@ -45,11 +45,11 @@ core:
 
     # These strings are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
+      color_label: 颜色
       delete_button: 删除群组
       delete_confirmation: "你确定要删除该群组？群组成员将不会被删除。"
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
+      icon_label: 图标
+      icon_text: "可输入任意 <a>FontAwesome</a> 图标类名, <em>不包括</em> the <code>fa-</code> 前缀。"
       name_label: Name
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
