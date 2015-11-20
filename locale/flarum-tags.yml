@@ -41,7 +41,7 @@ flarum-tags:
       required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
       required_secondary_heading: 必选次节点的数量
       required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      title: 节点设置
 
     # These strings are used in the Tags page.
     tags:
