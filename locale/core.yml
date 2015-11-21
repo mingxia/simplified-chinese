@@ -144,6 +144,7 @@ core:
       body_placeholder: 正文写在这里...
       discard_confirmation: "该话题未被发出，是否放弃？"
       submit_button: 发布
+      title: => core.ref.start_a_discussion
       title_placeholder: 内容标题
 
     # These strings are used by the composer when editing a post.
@@ -213,7 +214,7 @@ core:
       cannot_start_discussion_button: 不能发布话题
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 刷新
-      start_discussion_button: 开启新话题
+      start_discussion_button: => core.ref.start_a_discussion
 
     # These strings are used by the sorting control above the discussion list.
     index_sort:
@@ -381,6 +382,7 @@ core:
     save_changes: 保存修改                   # Referenced by flarum-tags.yml
     settings: 设置
     sign_up: 注册
+    start_a_discussion: 开启新话题
     some_others: "{count} 其他|{count} 其他"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: 用户名
     write_a_reply: 说点什么...
