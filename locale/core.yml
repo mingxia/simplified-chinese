@@ -27,11 +27,11 @@ core:
       forum_description_text: 用一两句简洁的话来描述你的社区。它将用于在搜索引擎中显示（Meta 标签）。
       forum_title_heading: 论坛名称
       home_page_heading: 首页
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      home_page_text: "选择用户进入社区后要呈现的首页面。如需输入自定义值，请使用相对路径。"
       saved_message: 你的修改已经保存
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎条幅
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_text: 写一些用于展示在所有话题页面顶部的话来欢迎访问社区的访客吧。
 
     # These strings are used in the Dashboard page.
     dashboard:
@@ -49,7 +49,7 @@ core:
       delete_button: 删除群组
       delete_confirmation: "你确定要删除该群组？群组成员将不会被删除。"
       icon_label: 图标
-      icon_text: "可输入任意 <a>FontAwesome</a> 图标类名, <em>不包括</em> the <code>fa-</code> 前缀。"
+      icon_text: "可输入任意 <a>FontAwesome</a> 图标类名, <em>不包括</em> <code>fa-</code> 前缀。"
       name_label: Name
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
@@ -97,7 +97,7 @@ core:
       global_heading: 全局
       moderate_heading: 版主
       new_group_button: 新群组
-      participate_heading: Participate
+      participate_heading: 参与
       read_heading: 阅读
       rename_discussions_label: 重命名话题
       reply_to_discussions_label: 回复话题
