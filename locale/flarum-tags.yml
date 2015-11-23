@@ -31,7 +31,7 @@ flarum-tags:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      restrict_by_tag_heading: Restrict by Tag
+      restrict_by_tag_heading: 节点权限
       tag_discussions_label: 话题节点
 
     # These strings are used in the Tag Settings modal dialog.
