@@ -176,7 +176,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "似乎还没有话题，为什么不发布一个新的呢？"
+      empty_text: "此处暂无话题。"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
